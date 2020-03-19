@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Hide unnecessary legends from Over Time Marcos Chart*/
+#overTimeMacrosChart .legend-item-0 {
+    display: none !important;
+}
+
+#overTimeMacrosChart .legend-item-1 {
+    display: none !important;
+}
+
+#overTimeMacrosChart .legend-item-2 {
+    display: none !important;
+}
+
+/* Customization for recharts */
+.recharts-tooltip-label {
+    color: #111111 !important;
+}
+
+/* Customization for material UI*/
+.MuiExpansionPanelDetails-root {
+    padding: 8px !important;
+}
+
+.MuiTableCell-sizeSmall {
+    padding: 4px 8px !important;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+    margin: 0 !important;
+}
+
+/* Customization for vertical timeline */
+.vertical-timeline {
+    padding-top: 4px !important;
+}
+
+.vertical-timeline-element {
+    margin-bottom: 28px !important;
+    margin-top: 8px !important;
+}
+
+.vertical-timeline-element-icon {
+    top: 14px !important;
+    left: 8px !important;
+    width: 24px !important;
+    height: 24px !important;
+    background: #111111 !important;
+}
+
+.vertical-timeline-element-icon .MuiSvgIcon-fontSizeSmall {
+    position: absolute !important;
+    margin-top: 0 !important;
+    top: 0 !important;
+    left: 2px !important;
+    width: 20px !important;
+    height: 20px !important;
+    color: rgb(233, 30, 99) !important;
+}
+
+.vertical-timeline-element-content {
+    margin-left: 48px !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 1px solid #ffffff !important;
+    color: #ffffff !important;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+    top: 20% !important;
+    left: 51.45% !important;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content {
+    margin-left: 0 !important;
+}
+
+.vertical-timeline-element-content:after {
+    display: none !important;
+}
+
+.vertical-timeline-element-date {
+    display: none !important;
+    padding: 0 !important;
+}
