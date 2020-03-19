@@ -14,4 +14,4 @@ MacroBuddy is an application to track food / meals. It provides three main featu
    preference in your profile. Each food log shows a pie chart breakdown of calories per meals.
    
 ## Demo
-https://fast-savannah-72639.herokuapp.com/
+http://fast-savannah-72639.herokuapp.com/
